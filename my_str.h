@@ -13,7 +13,7 @@ class MyStr
         MyStr(std::string* str);
         virtual ~MyStr();
 
-        std::string override();
+        std::string replace(std::string& search_regex, std::string& replacement);
 
 };
 
